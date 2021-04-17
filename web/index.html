@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title> Web portfolio nizam</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="toggle" onclick="toggleMenu();"> </div>
+
+        <section class="banner" id="home">
+
+            <div class="imgSidebar">
+                <img src="images/Nizam_Edit.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h5 class="logoText"> Portfolio </h5>
+            <div>
+                <h4><span>Hello</span>, saya</h4>
+                <h2>Sigit Khoirun Nizam</h2>
+                <h4>Saya seorang mahasiswa</h4>
+                <p>Selamat datang diwebsite saya,terima kasih sudah berkunjung </p>
+                <a href="#" class="btn">Tentang Saya</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+            </ul>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="title white">
+                <h2>Tentang</h2>
+                <p>Perkenalkan nama saya sigit khoirun nizam.</p>
+            </div>
+            <div class="content">
+                <div class="textBx">
+                    <p>Saya sigit khoirun nizam saya berasal dari desa pucangro kecamatan kalitengah kabupaten lamongan saya kuliah di PSDKU Lamongan,untuk prodi saya yaitu teknik informatika hobi saya bermain sepak bola. <br><br> Saya dibesarkan didesa pucangro hidup saya sederhana,untuk cita - cita saya ingin menjadi devloper android.</p>
+                </div>
+                <div class="imgBx">
+                    <img src="images/Nizam_Edit.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="title">
+                <h2>Layanan</h2>
+                <p>Saya melayani project yang berbau dibawah ini.</p>
+            </div>
+            <div class="content">
+                <div class="servicesBx">
+                    <img src="images/icon1.png">
+                    <h2>Web Design</h2>
+                    <p>Untuk web design sendiri saya mempunyai beberapa client indoensia maupun luar.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="images/icon2.png">
+                    <h2>Web Devlopment</h2>
+                    <p>Disini saya belum mempunyai pengalaman tapi insya allah saya bisa.</p>
+                </div>
+                <div class="servicesBx">
+                    <img src="images/icon3.png">
+                    <h2>Android apps</h2>
+                    <p>Android apps saya membuat aplikasi kalkulator,Info Covid-19,Dll.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="title">
+                <h2>Project</h2>
+                <p>Dibawah ini contoh project saya.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="images/nizamwork1.png" width="100%">
+                    </div>
+                    <div class="textBx">
+                        <h3>Project 01</h3>
+                        <p>Untuk project ke 1 dibuat untuk semata buat tugas.</p>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="images/nizamwork2.png" width="100%">
+                    </div>
+                    <div class="textBx"> 
+                        <h3>Project 02</h3>
+                        <p>Untuk project ke 2 dipergunakan aplikasi chat berbentuk web.</p>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="images/nizamwork3.png" width="100%">
+                    </div>
+                    <div class="textBx">
+                        <h3>Project 03</h3>
+                        <p>Untuk project ke 3 dibuat untuk memberi informasi tentang covid -19 untuk masyarakat indonesia.</p>
+                    </div>
+                </div>
+                <!-- ini -->
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="title white">
+                <h2>Kontak</h2>
+                <p>Silahkan diisi jika ada pesan terima kasih.</p>
+            </div>
+            <div class="contactForm">
+                <div class="row">
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Nama depan">
+                    </div>
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Nama belakang">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col50">
+                        <input type="text" name="" placeholder="Email">
+                    </div>
+                    <div class="col50">
+                        <input type="text" name="" placeholder="No. Telp">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col100">
+                        <textarea placeholder="Pesan"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col100">
+                        <input type="submit" value="Send" name="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>Copyright by nizam PSDKU LAMONGAN.</p>
+        </div>
+
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Beranda</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Tentang</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Layanan</a></li>
+                <li><a href="#work" onclick="toggleMenu();">Project</a></li>
+                <li><a href="../php/index.php" onclick="toggleMenu();">Crud</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li>
+            </ul>
+        </div>
+
+        <script>
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.toggle');
+                const sidebar = document.querySelector('.sidebar');
+                menuToggle.classList.toggle('active');
+                sidebar.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
